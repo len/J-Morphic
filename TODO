@@ -1,0 +1,31 @@
+- get rid of LocalCoordinatesCanvas, fix documentation
+- change how text is draw, make text gradually fade out when the font becomes too big for the viewport or too small that is unreadable
+- improve test drawing, draw text on a box and set font size automatically
+- fix resolution problem when zooming 30x, 40x etc, viewport, fonts size
+- smooth zoom
+- fix and enable clipping (will improve performance), fix Morph#fullDraw, EyeMorph#drawWorld
+- optimize Morph#fullDraw, Canvas#setClipping, Canvas#setTransformation
+- WorldMorph: keep eyes topmost, then hands, then rest of submorphs
+- WorldMorph: forbid setOwner
+- more coordinate systems (geographical other than equirectangular)
+- document and improve physics simulation code, add examples
+- BalloonMorph for tooltips
+- scripting (try groovy and javascript, maybe jython, jruby)
+- add LICENSE file
+- add Makefile, create a jar, generate javadoc
+- write a simple tutorial (maybe world map)
+- fix unnecessary rendering (we're using a square buffer image to keep aspect ratio, can be done more cleverly)
+
+examples (separate from the morphic jar):
+- graphs
+- ipv4 treemap (semantic zooming)
+- world map (geographical coordinates), download the texture in the Makefile
+- fractal morphs
+- n superimposed pictures at different scales
+- galileo experiment (drop 2 morphs of different mass on a simulation with gravity)
+
+maybe:
+- two windows on one world with two eyes
+- improve hand gestures, make them more pluggable, maybe add event handlers as pluggable objects
+- halos
+- typing on air + scripting

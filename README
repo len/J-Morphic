@@ -1,0 +1,28 @@
+
+ORIGIN
+
+Java Morphic is an interactive structured graphics system based on the Morphic system originally developed
+for the Self programming language and later implemented in Squeak Smalltalk.
+
+See http://en.wikipedia.org/wiki/Morphic_%28software%29
+
+Java Morphic is not a port of any other implementation, and it doesn't include any
+of the UI components that people familiar with Squeak would expect. It is scale-independent,
+making very easy the implementation of ZUIs (zoomable user interfaces).
+It also incorporates other innovative ideas from Morphic 3 by Juan Manuel Vuletich, such as
+local coordinate systems. Other sources of inspiration and ideas include Prefuse (and Flare),
+Piccolo2D and JavaFX.
+
+
+FEATURES
+
+Some features of Java Morphic worth mentioning:
+- scale independent and pixel-independent, very easy to build ZUIs;
+- arbitrary user-defined coordinate systems (cartesian, geographical, polar, etc);
+- subsystem for physical simulations (massive/charged particles, forces, springs);
+- allows semantic zooming (drawing routines can be scale-aware if desired).
+
+
+LICENSE
+
+Java Morphic source code is released under the MIT license.

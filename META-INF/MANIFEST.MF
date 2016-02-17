@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Morphic
+Bundle-SymbolicName: org.squeak.morphic;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Import-Package: org.eclipse.swt.graphics
+Export-Package: org.squeak.morphic.kernel,
+ org.squeak.morphic.kernel.coordinates,
+ org.squeak.morphic.kernel.events,
+ org.squeak.morphic.physics,
+ org.squeak.morphic.physics.forces,
+ org.squeak.morphic.support,
+ org.squeak.morphic.support.awt,
+ org.squeak.morphic.system,
+ org.squeak.morphic.system.eyes,
+ org.squeak.morphic.system.hands
